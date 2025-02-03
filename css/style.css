@@ -46,24 +46,38 @@ body {
 
 .btn{
     background-color: white;
-    padding: 10px;
     border-radius: 20px;
+    padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+    font-weight: bold;
 }
 
 .btn.dark{
     background-color: #23272a;
     color: white;
+    
+}
+
+.buttons > .btn{
+ 
+    border-radius: 50px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-weight: bold;
+    gap: 10px;
+    margin-right: 20px;
 }
 
 
 
 /* BODY STYLE */
 .posizione{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-top: 0px;
     
 }
@@ -74,14 +88,34 @@ body {
     background-repeat: no-repeat;
     height: 100vh; /* Occupa tutta l'altezza dello schermo */
     display: flex;
-    align-items: center;
+    
     justify-content: center;
     text-align: center;
     color: white;
-   
 }
 
+.banner-content {
+    max-width: 800px; /* Limita la larghezza del contenuto per una migliore leggibilità */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 20px; 
+    
+}
 
+h1{
+    font-size: 4em; /* Modifica la dimensione del testo a 4 volte quella di base */
+    font-weight: bold; 
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
 
 
 /* STILE BOX ENORME */
