@@ -39,10 +39,6 @@ body {
     justify-content: space-around;
 }
 
-.link > div{
-
-}
-
 .login{
     flex-grow: 1;
     text-align: right;
@@ -54,6 +50,12 @@ body {
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    border: none;
+}
+
+.btn.dark{
+    background-color: #23272a;
+    color: white;
 }
 
 
@@ -62,25 +64,24 @@ body {
 .posizione{
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 0px;
     
 }
 
-section {
+.banner{
+    background-image: url("../img/jumbo.png");
+    background-size: contain; /* Mostra tutta l'immagine senza tagliarla */
+    background-repeat: no-repeat;
+    height: 100vh; /* Occupa tutta l'altezza dello schermo */
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra orizzontalmente */
+    align-items: center;
+    justify-content: center;
     text-align: center;
-
+    color: white;
+   
 }
 
 
-.square{
-    background-color: #ee82ee;
-    margin: 0 auto;
-    height: 400px;
-    width: 900px;
-    border: 1px dashed #000;
-}
 
 
 /* STILE BOX ENORME */
