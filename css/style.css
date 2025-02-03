@@ -44,6 +44,7 @@ body {
     text-align: right;
 }
 
+/* STILI BOTTONI */
 .btn{
     background-color: white;
     border-radius: 20px;
@@ -61,7 +62,6 @@ body {
 }
 
 .buttons > .btn{
- 
     border-radius: 50px;
     padding: 20px;
     padding-left: 30px;
@@ -72,6 +72,28 @@ body {
     margin-right: 20px;
 }
 
+.purple{
+    background-color: #7288da;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-weight: bold;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.info > div:nth-child(2){
+    background-color: #7288da ;
+    color: white;
+}
+
+
+.download {
+    margin-top: 30px;
+}
 
 
 /* BODY STYLE */
@@ -95,7 +117,7 @@ body {
 }
 
 .banner-content {
-    max-width: 800px; /* Limita la larghezza del contenuto per una migliore leggibilità */
+    max-width: 800px; 
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -106,7 +128,7 @@ body {
 }
 
 h1{
-    font-size: 4em; /* Modifica la dimensione del testo a 4 volte quella di base */
+    font-size: 3.5em; /* Modifica la dimensione del testo a 4 volte quella di base */
     font-weight: bold; 
     margin: 0;
     margin-bottom: 50px;
@@ -120,13 +142,31 @@ p{
 
 /* STILE BOX ENORME */
 .blocco{
-    background-color: #228b22;
-    align-items: stretch;
-    justify-content: center;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     width: calc(100% - 30%);
-    height: 800px;              /* ALTEZZA */
-    border: 1px dashed #000;
+    height: 1100px;              /* ALTEZZA */
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+}
+
+
+.blocco img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+.star{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .due-blocchi{
@@ -136,7 +176,6 @@ p{
     margin: 0 auto;
     width: calc(100% - 30%);
     height: 500px;
-    
 }
 
 
@@ -145,16 +184,14 @@ p{
 }
 
 
-
-
 /* STILI PER I BOX A DUE BLOCCHI */
 .box{
-    border: 1px dashed #000;
+
     height: 500px;
 }
 
 .small{
-    background-color: #ffc0cb;
+    margin-top: 40px;
     flex-grow: 1 ;
 }
 
@@ -209,7 +246,7 @@ p{
 
 .dx{
     background-color: #20b2aa;
-    flex-grow: 2 ;
+    flex-grow: 3 ;
     display: flex;
 }
 
@@ -218,33 +255,40 @@ p{
     border: 1px dashed #ffffff;
 }
 
+
+
+   
+    
+
+
+
+    /* BARRA FINALE IN BASSO DI REGISTRAZIONE */
 #fine {
     background-color: #23272a; 
-    display: flex;
-    justify-content: center;
-    height: 110px;
-    margin-top: 0px;
-    align-items: flex-end;
-    border-top: 1px solid #d3d3d3;
-    
+     display: flex;
+     justify-content: center;
+     height: 110px;
+     margin-top: 0px;
+     align-items: flex-end;
 }
 
 .info{
-    background-color: #7fffd4; 
+    background-color: #23272a; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 70%; 
     height: 70px;
+    border-top: 1px solid #7288da;
     
 }
 
 .logo1{
-    background-color: #ffb6c1; 
-    border: 1px dashed #000;
+    background-color:  #d3d3d3; 
     width:  auto;
     text-align: left;
     padding: 0px 5px 0px 5px;
+    background-color: none;
     
 }
 
@@ -257,3 +301,24 @@ p{
     padding: 0px 5px 0px 5px;
     
 }
+
+
+
+/* .tabellla.dx > div{
+
+}
+
+strong{
+    color: #7288da;
+}
+
+ul{
+    list-style: none;
+    line-height:50px;
+}
+
+li{
+    color: white;
+} */
+   
+   
