@@ -1,0 +1,215 @@
+/* HEADER STYLE */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue',Arial, Helvetica, sans-serif ;
+  }
+
+#barra {
+    background-color: #255ee9;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 70%; 
+    gap: 10px; 
+} 
+
+#barra .menu > div {
+    padding: 10px;
+    color: white;
+}
+
+.logo{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.link {
+    display: flex;
+    flex-grow: 2;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.link > div{
+    
+}
+
+.login{
+    flex-grow: 1;
+    text-align: right;
+}
+
+.btn{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* BODY STYLE */
+.posizione{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.square{
+    background-color: #ee82ee;
+    margin: 0 auto;
+    height: 400px;
+    width: 900px;
+    border: 1px dashed #000;
+}
+
+
+/* STILE BOX ENORME */
+.blocco{
+    background-color: #228b22;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 30%);
+    height: 800px;              /* ALTEZZA */
+    border: 1px dashed #000;
+}
+
+.due-blocchi{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 30%);
+    height: 500px;
+    
+}
+
+
+.due-blocchi.reverse {
+    flex-direction: row-reverse; 
+}
+
+
+
+
+/* STILI PER I BOX A DUE BLOCCHI */
+.box{
+    border: 1px dashed #000;
+    height: 500px;
+}
+
+.small{
+    background-color: #ffc0cb;
+    flex-grow: 1 ;
+}
+
+.big{
+    background-color: #1e90ff;
+    flex-grow: 1.5 ;
+}
+
+
+/* STILI PER IL BACKGROUND */
+
+.bg-blue {
+    background-color: #00008b;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
+.bg-black {
+    background-color: #23272a;
+}
+
+
+
+
+/* FOOTER */
+
+/* stile tabella a colonna */
+.colonna{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 30%);
+    
+}
+
+.tabella{
+    height: 580px;
+    border: 1px dashed #000;
+}
+
+.sx {
+    background-color: #f08080;
+    flex-grow: 1 ;
+}
+
+.dx{
+    background-color: #20b2aa;
+    flex-grow: 2 ;
+    display: flex;
+}
+
+.dx > div {
+    flex-grow: 1;
+    border: 1px dashed #ffffff;
+}
+
+#fine {
+    background-color: #23272a; 
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    margin-top: 0px;
+    align-items: flex-end;
+    border-top: 1px solid #d3d3d3;
+    
+}
+
+.info{
+    background-color: #7fffd4; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%; 
+    height: 70px;
+    
+}
+
+.logo1{
+    background-color: #ffb6c1; 
+    border: 1px dashed #000;
+    width:  auto;
+    text-align: left;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+.bottone {
+    background-color: #ffb6c1; 
+    border: 1px dashed #000;
+    width: 10px;
+    text-align: right;
+    width: auto;
+    padding: 0px 5px 0px 5px;
+    
+}
