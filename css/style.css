@@ -236,12 +236,14 @@ p{
 
 .tabella{
     height: 580px;
-    border: 1px dashed #000;
 }
 
 .sx {
-    background-color: #f08080;
-    flex-grow: 1 ;
+    background-color: #23272a;
+    flex-grow: 0.5 ;
+    flex-shrink: 0;
+    width: 200px;
+    max-width: 200px;
 }
 
 .dx{
@@ -252,10 +254,13 @@ p{
 }
 
 .dx > div {
-    flex-grow: 1;
+    flex-grow: 3;
 }
 
-
+/* differenza dei due strong uno è per attributo l'altro è un selettore di classe */
+.strong{
+    color: #7288da;
+ }
 
 strong{
    color: #7288da;
@@ -267,8 +272,36 @@ ul{
 }
 
 li{
+    font-size: 0.8em;
     color: white;
 } 
+
+/* STILE PER LE ICONE */
+.icon {
+    display: flex;
+    color: white;
+    padding: 10px;
+    gap: 20px;  
+}
+
+.icon i{
+    font-size: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.lingua {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+}
+
+.flag-icon {
+    width: 40px;  
+    height: auto;  
+}
     
 
 
@@ -291,6 +324,7 @@ li{
     width: 70%; 
     height: 70px;
     border-top: 1px solid #7288da;
+    padding-bottom: 50px;
     
 }
 
@@ -312,24 +346,4 @@ li{
     padding: 0px 5px 0px 5px;
     
 }
-
-
-
-/* .tabellla.dx > div{
-
-}
-
-strong{
-    color: #7288da;
-}
-
-ul{
-    list-style: none;
-    line-height:50px;
-}
-
-li{
-    color: white;
-} */
-   
    
