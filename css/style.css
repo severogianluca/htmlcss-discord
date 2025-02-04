@@ -245,19 +245,30 @@ p{
 }
 
 .dx{
-    background-color: #20b2aa;
+    background-color:#23272a;
     flex-grow: 3 ;
     display: flex;
+    
 }
 
 .dx > div {
     flex-grow: 1;
-    border: 1px dashed #ffffff;
 }
 
 
 
-   
+strong{
+   color: #7288da;
+}
+
+ul{
+    list-style: none;
+    line-height:50px;
+}
+
+li{
+    color: white;
+} 
     
 
 
